@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM Jenkins Suite">
+
+    <test name="Chrome Jenkins Test">
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="tests.AddEmployeeTest"/>
+        </classes>
+
+    </test>
+
+</suite>
